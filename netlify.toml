@@ -1,0 +1,6 @@
+[[redirects]]
+from = "/dir/*"
+to = "/dir/204.json"
+status = 204
+force = false
+headers = { Content-Type = "application/json" }
