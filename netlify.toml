@@ -1,6 +1,7 @@
+[build]
+  functions = '/functions'
+
 [[redirects]]
-from = "/dir/*"
-to = "/dir/204.json"
-status = 204
-force = false
-headers = { Content-Type = "application/json" }
+  from = "/dir/*"
+  to = "/.netlify/functions/204"
+  force = false
