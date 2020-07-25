@@ -3,7 +3,7 @@ exports.handler = function(event, context, callback) {
     statusCode: 204,
     headers: {
       'Content-Type': 'application/json'
-    }
+    },
     body: 'no content.'
   })
 }
